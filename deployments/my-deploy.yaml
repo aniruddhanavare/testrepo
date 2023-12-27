@@ -18,7 +18,7 @@ spec:
         app: my-deploy
     spec:
       containers:
-      - image: nginx:latest
+      - image: nginx:1.25.3
         name: nginx
         resources: {}
 status: {}
